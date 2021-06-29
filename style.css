@@ -1,0 +1,76 @@
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#map iframe {
+    width: 40%;
+    height: 40%;
+    float: left;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
+
+.contact_1 {
+    float: left;
+}
+
+#details img {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+marquee {
+    background-color: aqua;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.campusMain_div img {
+    width: 100%;
+    height: 300px;
+}
+
+.campusMain_div hr {
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.campusMain_div{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+#achieve_id{
+    padding-bottom: 10px;
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.movie_head i{
+    float: right;
+}
+.movie_text span{
+    color: #ff7700
+}
